@@ -1,7 +1,7 @@
 <section class="container pt-5 mt-xl-3 mt-xxl-5">
   <div class="row pt-1 pt-sm-3 pt-md-4 pt-lg-5 mt-xl-2">
     <div class="col-lg-4">
-      <h2 class="h1 pb-1 pb-sm-2 mb-4">Who may attend Conference?</h2>
+      <h2 class="h1 pb-1 pb-sm-2 mb-4">¿Quién puede asistir a la Conferencia?</h2>
     </div>
     <div class="col-lg-8 col-xl-7 offset-xl-1">
       <div class="ps-lg-4 ps-xl-0">
@@ -28,7 +28,7 @@
                     role="tabpanel"
                   >
                     <p class="fs-xl mb-4">
-                      {{ item.content.list }}
+                      {{ item.content.text }}
                     </p>
                     <ul class="fs-xl mb-0">
                       @for (data of item.content.list; track $index) {
@@ -47,7 +47,8 @@
           [ngbNavOutlet]="nav"
           class="tab-content py-2 pb-md-0 pt-sm-3 pt-lg-4 mb-4 mb-md-5"
         ></div>
-        <a
+
+        <!-- <a
           class="btn btn-lg btn-primary w-100 w-sm-auto"
           href="#tickets"
           data-scroll
@@ -55,7 +56,8 @@
         >
           Buy access pass
           <i class="ai-arrow-down ms-2 me-n2"></i>
-        </a>
+        </a> -->
+
       </div>
     </div>
   </div>

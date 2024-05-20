@@ -52,8 +52,8 @@ export type GalleryType = {
 
 export const heroSwiper: HeroType[] = [
   {
-    name: 'Esther Howard',
-    position: 'VP of Strategy, Stretto Inc.',
+    name: 'Glendy Zambrano',
+    position: 'Directora de Marketing',
     image: 'assets/img/landing/conference/hero/01.jpg',
   },
   {
@@ -70,63 +70,67 @@ export const heroSwiper: HeroType[] = [
 
 export const targetData: TargetDataType[] = [
   {
-    category: 'UI/UX Designers',
+    category: 'Socios',
     content: {
-      id: 'designers',
-      text: 'Ipsum sed nascetur dolor accumsan integer phasellus tincidunt. Nulla quisque pellentesque adipiscing placerat integer feugiat facilisi elit mi. Dictum nunc lacinia vel molestie laoreet aliquet ridiculus diam justo viverra.',
+      id: 'socios',
+      text: 'Socios de Incruises.',
       list: [
-        'At donec auctor quam ut scelerisque dui.',
-        'Mollis sed fringilla placerat lobortis viverra aliquam ut nisl nisi.',
-        'Odio ullamcorper in praesent venenatis non non sed pharetra dipise.',
-        'Lobortis dui nibh at condimentum.',
+        'Con enlace de invitación.',
       ],
     },
   },
   {
-    category: 'Developers',
+    category: 'Miembros',
     content: {
-      id: 'developers',
-      text: 'Etiam sed porta massa. In sapien metus, lobortis eu tortor id, maximus commodo enim. Phasellus feugiat mi vitae enim cursus, ut scelerisque augue scelerisque. Pellentesque habitant morbi tristique senectus et netus.',
+      id: 'miembros',
+      text: 'Miembros del club.',
       list: [
-        'Donec imperdiet dolor at leo sodales.',
-        'Fringilla placerat lobortis viverra aliquam ut nisl nisi.',
-        'Lobortis ullamcorper in praesent venenatis non non sed pharetra dipise.',
-        'Mollis dui nibh at condimentum.',
+        'Con enlace de invitación.',
       ],
     },
   },
   {
-    category: 'Managers',
+    category: 'Invitados',
     content: {
-      id: 'managers',
-      text: 'Ipsum sed nascetur dolor accumsan integer phasellus tincidunt. Nulla quisque pellentesque adipiscing placerat integer feugiat facilisi elit mi. Dictum nunc lacinia vel molestie laoreet aliquet ridiculus diam justo viverra.',
+      id: 'invitados',
+      text: 'Invitados através de las redes sociales.',
       list: [
-        'At donec auctor quam ut scelerisque dui.',
-        'Mollis sed fringilla placerat lobortis viverra aliquam ut nisl nisi.',
-        'Odio ullamcorper in praesent venenatis non non sed pharetra dipise.',
-        'Lobortis dui nibh at condimentum.',
+        'Con enlace de invitación.',
       ],
     },
   },
-  {
-    category: 'Marketers',
-    content: {
-      id: 'marketers',
-      text: 'Etiam sed porta massa. In sapien metus, lobortis eu tortor id, maximus commodo enim. Phasellus feugiat mi vitae enim cursus, ut scelerisque augue scelerisque. Pellentesque habitant morbi tristique senectus et netus.',
-      list: [
-        'Donec imperdiet dolor at leo sodales.',
-        'Fringilla placerat lobortis viverra aliquam ut nisl nisi.',
-        'Lobortis ullamcorper in praesent venenatis non non sed pharetra dipise.',
-        'Mollis dui nibh at condimentum.',
-      ],
-    },
-  },
+  // {
+  //   category: 'Managers',
+  //   content: {
+  //     id: 'managers',
+  //     text: 'Ipsum sed nascetur dolor accumsan integer phasellus tincidunt. Nulla quisque pellentesque adipiscing placerat integer feugiat facilisi elit mi. Dictum nunc lacinia vel molestie laoreet aliquet ridiculus diam justo viverra.',
+  //     list: [
+  //       'At donec auctor quam ut scelerisque dui.',
+  //       'Mollis sed fringilla placerat lobortis viverra aliquam ut nisl nisi.',
+  //       'Odio ullamcorper in praesent venenatis non non sed pharetra dipise.',
+  //       'Lobortis dui nibh at condimentum.',
+  //     ],
+  //   },
+  // },
+  // {
+  //   category: 'Marketers',
+  //   content: {
+  //     id: 'marketers',
+  //     text: 'Etiam sed porta massa. In sapien metus, lobortis eu tortor id, maximus commodo enim. Phasellus feugiat mi vitae enim cursus, ut scelerisque augue scelerisque. Pellentesque habitant morbi tristique senectus et netus.',
+  //     list: [
+  //       'Donec imperdiet dolor at leo sodales.',
+  //       'Fringilla placerat lobortis viverra aliquam ut nisl nisi.',
+  //       'Lobortis ullamcorper in praesent venenatis non non sed pharetra dipise.',
+  //       'Mollis dui nibh at condimentum.',
+  //     ],
+  //   },
+  // },
 ]
 
 export const speakersData: SpeakerType[] = [
   {
-    name: 'Marvin McKinney',
-    role: 'Founder & CEO, Uber',
+    name: 'Glendy Zambrano',
+    role: 'Directora de Marketing Digital',
     avatar: 'assets/img/avatar/36.jpg',
   },
   {

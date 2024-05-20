@@ -3,7 +3,7 @@
     class="navbar-nav navbar-nav-scroll me-auto"
     style="--ar-scroll-height: 520px"
   >
-    @for (item of megaMenuItems; track item.key) {
+    <!-- @for (item of megaMenuItems; track item.key) {
       @if (item.isTitle) {
         <li class="nav-item dropdown">
           <a
@@ -72,17 +72,16 @@
           />
         }
       }
-    }
+    } -->
     <li class="nav-item">
       <a
         class="nav-link"
-        target="_blank"
-        href="https://themes.coderthemes.com/around_ng/docs"
-        >Docs</a
+        routerLink="/conference"
+        >Conference</a
       >
     </li>
   </ul>
-  <div class="d-sm-none p-3 mt-n3">
+  <!-- <div class="d-sm-none p-3 mt-n3">
     <a
       class="btn btn-primary w-100 mb-1"
       :href="buyLink"
@@ -92,7 +91,7 @@
       <i class="ai-cart fs-xl me-2 ms-n1"></i>
       Buy now
     </a>
-  </div>
+  </div> -->
 </nav>
 
 <ng-template #megaMenuItem let-item="item" let-imageClassName="imageClassName">
